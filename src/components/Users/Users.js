@@ -8,7 +8,6 @@ const Users = () => {
             .then(res => res.json())
             .then(data => {
                 setUsers(data)
-
             })
     }, [])
 
